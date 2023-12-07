@@ -340,3 +340,333 @@ footer .copyright {
   margin: 0;
   padding: 30px 0 0 0;
 }
+
+@media only screen and (max-width: 779px) {
+  body {
+    font-family: "Zen Maru Gothic", sans-serif;
+    width: auto;
+    color: #3f5563;
+    letter-spacing: 0.05em;
+    background-color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+  }
+
+  section {
+    padding-top: 40px;
+  }
+
+  section:nth-of-type(odd) {
+    background-color: #feffff;
+  }
+
+  section:nth-of-type(even) {
+    background-color: #fafbfc;
+  }
+
+  h3 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+
+  a {
+    transition: opacity 0.3s;
+    text-decoration: none;
+  }
+
+  /*ヘッダー*/
+  header {
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    background-color: #eaeff3;
+    box-shadow: 0 5px 10px -6px #3f5563;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+  }
+
+  header h1 {
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    color: #8ea2af;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 0.5;
+    margin-right: 20px;
+    letter-spacing: 0.05em;
+  }
+
+  header h1 a {
+    color: #8ea2af;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 60px;
+  }
+
+  nav li:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  nav li a {
+    position: relative;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    transition: 0.3s;
+    letter-spacing: 0.05em;
+    color: #8ea2af;
+  }
+
+  nav li a:hover:after {
+    width: 100%;
+  }
+
+  nav li a:hover {
+    color: rosybrown;
+  }
+
+  /* トップ */
+
+  .top {
+    background-color: #fafdff;
+    text-align: center;
+    padding-top: 100px;
+  }
+
+  .top-text {
+    color: #b5d3d7;
+  }
+
+  h1 {
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    font-size: 96px;
+  }
+
+  .top h2 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .title {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .top img {
+    width: auto;
+    height: 500px;
+    margin-top: 50px;
+  }
+
+  .top-item {
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* 寝かせるの解釈 */
+
+  .kaisyaku {
+    height: auto;
+  }
+
+  .kaisyaku h3 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 40px;
+  }
+
+  .flex {
+    display: block;
+    justify-content: center;
+  }
+
+  .kaisyaku img {
+    width: 250px;
+  }
+
+  .k-1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .k-2 {
+    font-size: 16px;
+    margin-bottom: 70px;
+  }
+
+  /* about */
+
+  .about h3 {
+    margin-top: 40px;
+  }
+
+  .about {
+    height: auto;
+  }
+
+  .about p {
+    font-size: 16px;
+  }
+
+  .about-target2 {
+    margin-bottom: 90px;
+  }
+
+  .about-flex1 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+  }
+
+  .about-flex2 {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+  }
+
+  .about img {
+    width: 100px;
+    height: auto;
+  }
+
+  figcaption {
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  .margin {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+  }
+
+  /*Point*/
+
+  .point h3 {
+    margin-top: 40px;
+    margin-bottom: 70px;
+  }
+
+  .point-list {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .point-item {
+    display: block;
+    width: 80%;
+    margin-bottom: 70px;
+    text-align: center;
+  }
+
+  .point img {
+    width: 250px;
+    margin-bottom: 30px;
+  }
+
+  /* .point-body {
+    flex: 1;
+    margin-top: 10px;
+  } */
+
+  .point-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .point-text {
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: left;
+  }
+
+  /* How to */
+
+  .howto h3 {
+    margin-top: 40px;
+    margin-bottom: 70px;
+  }
+
+  .howto-list {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .howto-flex {
+    display: block;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 70px;
+    text-align: center;
+  }
+
+  .howto img {
+    width: 200px;
+    height: auto;
+  }
+
+  .howto-text {
+    margin-top: 30px;
+  }
+
+  .h-1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .h-2 {
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: left;
+  }
+
+  /* fotter */
+  footer {
+    color: #fafbfb;
+    background: #8ea2af;
+    text-align: center;
+    padding: 30px;
+    clear: both;
+  }
+  footer a {
+    color: #fafbfb;
+    text-decoration: none;
+  }
+  footer a:hover {
+    text-decoration: underline;
+  }
+  footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  footer ul li {
+    margin: 0;
+    padding: 0 20px;
+  }
+  footer .copyright {
+    margin: 0;
+    padding: 30px 0 0 0;
+  }
+}
+
